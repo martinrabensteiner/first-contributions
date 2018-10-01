@@ -8,29 +8,30 @@
 |<img alt="Visual Studio 2017" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Visual_Studio_2017_logo_and_wordmark.svg/2000px-Visual_Studio_2017_logo_and_wordmark.svg.png" width="200">|Visual Studio 2017 Edition|
 |---|---|
 
-It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
+Aller Anfang ist schwer. Gerade dann, wenn wir gemeinsam an etwas arbeiten, will niemand etwas Falsches tun. Aber Open Source dreht sich um Kooperation und lebt von den Beiträgen von vielen Freiwilligen. Deshalb haben wir es uns zur Aufgabe gemacht, neuen Mitgliedern in der Open-Source-Gemeinde ihre ersten Schritte so einfach wie möglich zu machen.
 
-Reading articles & watching tutorials can help, but what comes better than actually doing the stuff without messing up anything. This project aims at providing guidance & simplifying the way rookies make their first contribution. Remember the more relaxed you are the better you learn. If you are looking for making your first contribution just follow the simple steps below. We promise you, it will be fun.
+Natürlich helfen die vorhandenen Artikel und Videoanleitungen. Aber was kann besser sein, als es einfach einmal auszuprobieren mit dem Wissen, dass man nichts kaputt machen kann? Diese Projekt will Anfängern zeigen, wie sie möglichst einfach ihren ersten Beitrag leisten. Bedenke: Je entspannter du bist, desto besser lernst du. Wenn du deinen ersten Beitrag leisten möchtest, folge diesen einfachen Schritten. Wir versprechen dir, es wird Spaß machen.
 
-If you don't have Visual Studio 2017 on your machine, [install it](https://www.visualstudio.com/downloads/).
+Wenn du Visual Studio 2017 noch nicht installiert hast, kannst du es [hier](https://www.visualstudio.com/downloads/) downloaden.
 
-## Fork this repository
+## Repository forken
 
 <img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
 
-Fork this repo by clicking on the fork button on the top of this page. This will create of copy of this repository in your GitHub account.
+Forke das Repository durch das Anklicken der Schaltfläche "Fork". Dadurch erhältst du deine eigenen Version des Projektes in deinem Profil.
 
-GitHub keeps track of the relationship between your repo and the one you forked it from.  You can think of your repo as a working copy.
+GitHub behält die Änderungen zwischen dem Original und dem kopierten Repository in deinem Profil, es ist wie eine Arbeitskopie für dich alleine.
 
-Most top-level GitHub repos (i.e. ones not forked from any other repo) have a small core team of people who can directly commit changes.  All other contributors must fork the repo and make changes in the fork, then create a Pull Request to ask for their changes to be merged back into the top-level repo. If the top-level repo administrator likes the changes they will be merged and you will gain instant fame and fortune!  More on how to do that later.
+Änderungen an den meisten GitHub-Repositorys können nur von wenigen, dazu privilegierten Contributern committed werden. Alle anderen Benutzer müssen das Repo forken und die Änderungen in diesem Fork machen, dann einen Pull Request absenden um so eine Änderung im Original-Repository vor zu schlagen. Wenn ein Administrator des Projekts deinem Änderungsvorschlag zustimmet, wird dieser ins Original übernommen - du wirst berühmt und erntest die Lorbeeren für deinen Beitrag! Später mehr dazu.
 
-## Clone your repository
+## Repository klonen
 
 <img align="right" width="300" src="assets/clone.png" alt="clone this repository" />
 
-The next step is to clone your repo down to your machine so you can begin making changes. Visual Studio needs the URL of your repo, so click the "clone" button and then click the "copy to clipboard" icon.
+Der nächste Schritt ist, dein Repository zu klonen. Das bedeutet, eine Kopie deines Online-Repos auf deinem Computer zu machen. Git behält die Änderungen im Überblick (That's the magic!). Visual Studio braucht dazu die URL davon, dafür klickst du auf "Clone or download" und dann auf das Zwischenablagen-Icon.
 
-**CAREFUL:** One mistake that new contributors often make is to clone the repo you forked *from* rather than cloning your repo.  Check your browser's address bar and make sure you are cloning your repo.
+**ACHTUNG:** Ein klassischer Anfängerfehler ist es, das Original-Repo und nicht den extra dazu angelegten Fork zu klonen. Commits kannst du nur auf deinen Fork machen (dazu ist er da). Schau auf die URL, da drin muss dein Username enthalten sein, wenn es sich um deines handelt.
+
 
 It is now time to jump in to Visual Studio 2017!  You will be working in the Team Explorer tab for most of this tutorial.  If it is not open by default, click `View > Team Explorer` to open it.
 
